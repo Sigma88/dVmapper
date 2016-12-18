@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="Assets.cs" />
     <Compile Include="dVmapper.cs" />
+    <Compile Include="PlanetsSprites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
