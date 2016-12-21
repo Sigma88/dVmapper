@@ -21,7 +21,7 @@ namespace SigmadVmapperPlugin
         public static void Load()
         {
             // Load orbits sprites
-            string[] names = new string[] { "circle_top", "circle_middle", "circle_bottom", "orbit_low", "orbit_synch", "orbit_elliptic", "orbit_flyby" };
+            string[] names = new[] { "starlerp", "circle_top", "circle_middle", "circle_bottom", "circle_home", "circle_star", "orbit_low", "orbit_synch", "orbit_elliptic", "orbit_flyby" };
 
             foreach(Texture texture in Resources.FindObjectsOfTypeAll<Texture>())
             {
@@ -35,6 +35,7 @@ namespace SigmadVmapperPlugin
             
             // Generate planets sprites
             PlanetSprites.Generate();
+            PlanetSprites.HomeStarSymbol();
         }
     }
 }
