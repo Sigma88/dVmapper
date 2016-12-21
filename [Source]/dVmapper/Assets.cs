@@ -16,6 +16,7 @@ namespace SigmadVmapperPlugin
     {
         public static Dictionary<string, Texture2D> planets = new Dictionary<string, Texture2D>();
         public static Dictionary<string, Texture2D> orbits = new Dictionary<string, Texture2D>();
+        public static Dictionary<object, Color> colors = new Dictionary<object, Color>();
         public static Color background = new Color(1, 1, 1, 1);
 
         public static void Load()
@@ -36,6 +37,9 @@ namespace SigmadVmapperPlugin
             // Generate planets sprites
             PlanetSprites.Generate();
             PlanetSprites.HomeStarSymbol();
+
+            // Load Colors
+            LineColors.Load();
         }
     }
 }

@@ -35,6 +35,8 @@
     <Compile Include="dVmapper.cs" />
     <Compile Include="PlanetsSprites.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LineColors.cs" />
+    <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
@@ -53,6 +55,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Sigma-Binary\[Source]\Kopernicus\Kopernicus.OnDemand.dll</HintPath>
     </Reference>
+    <Reference Include="Kopernicus.Parser, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Sigma-Binary\[Source]\Kopernicus\Kopernicus.Parser.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Sigma-Binary\[Source]\KerbalSpaceProgram\KSP_Data\Managed\UnityEngine.dll</HintPath>
